@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+wrapper .ant-upload-list.ant-upload-list-picture .ant-upload-list-item-error,
+:where(.css-dev-only-do-not-override-1adbn6x).ant-upload-wrapper
+  .ant-upload-list.ant-upload-list-picture-card
+  .ant-upload-list-item-error,
+:where(.css-dev-only-do-not-override-1adbn6x).ant-upload-wrapper
+  .ant-upload-list.ant-upload-list-picture-circle
+  .ant-upload-list-item-error {
+  border-color: blue !important;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-tooltip .ant-tooltip-inner {
+  display: none !important;
+}
+/* .navbar-active .hamburger div:first-child {
+  @apply rotate-45 translate-y-1.5;
+}
+.navbar-active .hamburger div:last-child {
+  @apply -rotate-45 -translate-y-1;
+}
+.navbar-active div:first-child div:first-child div:last-child{
+  @apply block lg:flex
+} */
+:where(.css-dev-only-do-not-override-1adbn6x).ant-btn-primary {
+  background-color: #1e3a8a !important;
+  color: aliceblue !important;
+}
