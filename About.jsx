@@ -31,6 +31,14 @@ const About = () => {
 "
        srcimg={renter}
        />
+      <Buyer_Seller
+       firsttag="Renter"
+       f_paragraph="As a renter, you have extra space in your property that you'd like to monetize by renting it out to tenants. Whether it's a spare room, a guest house, or an entire property, you can list it on our platform and reach potential tenants. Showcase your rental space, manage inquiries, and connect with tenants to generate additional income and make the most of your property."
+       sectag="Hostess"
+       s_paragraph="As a tenant, you are searching for the perfect rental property to call home. Whether it's a cozy apartment in the city or a spacious house in the suburbs, you have specific preferences and requirements. Browse through our rental listings, save your searches, and communicate with agents to find the ideal place to live.
+"
+       srcimg={renter}
+       />
       <Motto/>
       <Footer/>
       
